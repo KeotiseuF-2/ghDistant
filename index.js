@@ -28,6 +28,7 @@ function exercice() {
         main.setAttribute("style", "filter: blur(0px)")
     })
     
+    document.getElementById("Aujourdhui").valueAsDate = new Date();  
 }
 
 exercice();
